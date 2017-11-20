@@ -28,6 +28,8 @@ COLMAP_ADD_EXECUTABLE(image_undistorter image_undistorter.cc)
 
 COLMAP_ADD_EXECUTABLE(mapper mapper.cc)
 
+COLMAP_ADD_EXECUTABLE(matches_exporter matches_exporter.cc)
+
 COLMAP_ADD_EXECUTABLE(matches_importer matches_importer.cc)
 
 COLMAP_ADD_EXECUTABLE(model_aligner model_aligner.cc)
